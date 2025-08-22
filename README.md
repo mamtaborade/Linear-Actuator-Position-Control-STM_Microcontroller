@@ -4,12 +4,15 @@ The Serial Monitor is showing live actuator control status:
 🔹 Current Position = 3079
     This value comes from the position sensor (ADC input).
     It represents the actuator’s position reading.
+    
 🔹 Current Pressure = 2958
     This value comes from the pressure sensor (ADC input).
     It represents the pressure in the system.
+    
 🔹 Actuator: ON
     The motor is active (green LED ON).
     This means the actuator has not yet reached the defined POSITION_THRESHOLD (2000).
+    
 🔹 PPR Valve: OPEN
     The valve status (red LED ON) is OPEN, because the pressure (2958) is below the PRESSURE_THRESHOLD (2000).
     If the pressure exceeds the threshold, the valve status would change to CLOSED.
