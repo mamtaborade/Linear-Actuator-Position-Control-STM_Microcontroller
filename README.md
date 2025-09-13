@@ -21,3 +21,4 @@ The Serial Monitor is showing live actuator control status:
   Green LED (Motor LED): ON → actuator running.
   Red LED (Valve LED): ON → valve is open.
 
+
